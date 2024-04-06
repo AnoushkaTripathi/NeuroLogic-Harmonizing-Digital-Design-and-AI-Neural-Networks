@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Apr  5 07:26:23 2024
+# Process ID: 28052
+# Current directory: C:/Users/anous/Desktop/vnpu/spikking_Neural_Network
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4948 C:\Users\anous\Desktop\vnpu\spikking_Neural_Network\spikking_Neural_Network.xpr
+# Log file: C:/Users/anous/Desktop/vnpu/spikking_Neural_Network/vivado.log
+# Journal file: C:/Users/anous/Desktop/vnpu/spikking_Neural_Network\vivado.jou
+# Running On: LAPTOP-IS81INHI, OS: Windows, CPU Frequency: 2189 MHz, CPU Physical cores: 12, Host memory: 16803 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/anous/Desktop/vnpu/spikking_Neural_Network/spikking_Neural_Network.xpr
+update_compile_order -fileset sources_1

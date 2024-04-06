@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Apr  5 07:21:03 2024
+# Process ID: 1424
+# Current directory: C:/Users/anous/Desktop/vnpu/spikking_Neural_Network
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23812 C:\Users\anous\Desktop\vnpu\spikking_Neural_Network\spikking_Neural_Network.xpr
+# Log file: C:/Users/anous/Desktop/vnpu/spikking_Neural_Network/vivado.log
+# Journal file: C:/Users/anous/Desktop/vnpu/spikking_Neural_Network\vivado.jou
+# Running On: LAPTOP-IS81INHI, OS: Windows, CPU Frequency: 2189 MHz, CPU Physical cores: 12, Host memory: 16803 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/anous/Desktop/vnpu/spikking_Neural_Network/spikking_Neural_Network.xpr
+update_compile_order -fileset sources_1
+set_property file_type SystemVerilog [get_files  C:/Users/anous/Desktop/vnpu/spikking_Neural_Network/spikking_Neural_Network.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/aer.v]
+export_ip_user_files -of_objects  [get_files C:/Users/anous/Desktop/vnpu/spikking_Neural_Network/spikking_Neural_Network.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/SNN/Verilog/AdEx.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/anous/Desktop/vnpu/spikking_Neural_Network/spikking_Neural_Network.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/SNN/Verilog/AdEx.sv

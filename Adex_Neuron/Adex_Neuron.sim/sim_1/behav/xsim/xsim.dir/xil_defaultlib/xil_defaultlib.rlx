@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sim_1/imports/SPIKING-NEURAL-NETWORK-main/testing.v,1712281752,verilog,,,,test,,uvm,,,,,,
+C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/BCM.v,1712281751,verilog,,,,BCM,,uvm,,,,,,
+C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/aer.v,1712281752,systemVerilog,C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/inhibit.v;C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/neuron.v;C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/snn.v;C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/synaps.v,C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/inhibit.v,,$unit_aer_v_2982741456;AER;encoder,,uvm,,,,,,
+C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/inhibit.v,1712281752,systemVerilog,,C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/neuron.v,,inhibit,,uvm,,,,,,
+C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/neuron.v,1712286103,systemVerilog,,C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/snn.v,,neuron;signed_mult,,uvm,,,,,,
+C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/snn.v,1712281752,systemVerilog,,C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/synaps.v,,multi_layer_snn_with_aer,,uvm,,,,,,
+C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/synaps.v,1712281752,systemVerilog,,,,decoder;synaps;synaps_block,,uvm,,,,,,

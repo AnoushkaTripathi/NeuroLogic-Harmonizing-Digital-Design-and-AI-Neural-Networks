@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/BCM.v" \
+
+sv xil_defaultlib  \
+"../../../../Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/aer.v" \
+"../../../../Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/inhibit.v" \
+"../../../../Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/neuron.v" \
+"../../../../Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/snn.v" \
+"../../../../Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/synaps.v" \
+
+verilog xil_defaultlib  \
+"../../../../Adex_Neuron.srcs/sim_1/imports/SPIKING-NEURAL-NETWORK-main/testing.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

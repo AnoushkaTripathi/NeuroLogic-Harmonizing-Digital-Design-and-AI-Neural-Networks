@@ -1,0 +1,29 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 20 for port 'b' [C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/neuron.v:80]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 20 for port 'b' [C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/neuron.v:81]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4398] File "C:/Users/anous/Desktop/vnpu/Adex_Neuron/Adex_Neuron.srcs/sources_1/imports/SPIKING-NEURAL-NETWORK-main/inhibit.v" Line 52 : Function calls inside wait/event expression are sensitive to arguments only."zero()" is called without any argument which may not unblock the wait/event expression.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.encoder
+Compiling module xil_defaultlib.AER
+Compiling module xil_defaultlib.BCM(initial_weight=18'sb01000000...
+Compiling module xil_defaultlib.decoder(in_size=3,out_size=5)
+Compiling module xil_defaultlib.synaps(no_of_neurons=5,initial_w...
+Compiling module xil_defaultlib.synaps_block(Out_neurons=10)
+Compiling module xil_defaultlib.encoder(size=10)
+Compiling module xil_defaultlib.AER(no_of_neurons=10)
+Compiling module xil_defaultlib.inhibit(inhibit_strength=20'sb01...
+Compiling module xil_defaultlib.signed_mult(size=20)
+Compiling module xil_defaultlib.neuron(b=32'sb011001100110011)
+Compiling module xil_defaultlib.multi_layer_snn_with_aer_default
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
